@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 public class MemberController {
     //DI - Dependency Injection
     MemberService memberService;
-    public MemberController(MemoService memoService) {
+    public MemberController(MemberService memberService) {
         this.memberService = memberService;
 
     }
